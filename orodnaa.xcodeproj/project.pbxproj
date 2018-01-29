@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430F4D311E000BBF00DC2440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D301E000BBF00DC2440 /* main.m */; };
+		430F4D341E000BBF00DC2440 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D331E000BBF00DC2440 /* AppDelegate.m */; };
+		430F4D371E000BBF00DC2440 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D361E000BBF00DC2440 /* ViewController.m */; };
+		430F4D3A1E000BBF00DC2440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430F4D381E000BBF00DC2440 /* Main.storyboard */; };
+		430F4D3C1E000BBF00DC2440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430F4D3B1E000BBF00DC2440 /* Assets.xcassets */; };
+		430F4D3F1E000BBF00DC2440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430F4D3D1E000BBF00DC2440 /* LaunchScreen.storyboard */; };
+		430F4D491E000C3600DC2440 /* ODHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D481E000C3600DC2440 /* ODHelper.m */; };
+		430F4D4C1E00108100DC2440 /* ODRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D4B1E00108100DC2440 /* ODRightViewController.m */; };
+		430F4D4F1E0010A700DC2440 /* ODMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D4E1E0010A700DC2440 /* ODMainViewController.m */; };
+		430F4D511E0012C500DC2440 /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 430F4D501E0012C500DC2440 /* Fonts.bundle */; };
+		430F4D541E0014A300DC2440 /* ODRightMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D531E0014A300DC2440 /* ODRightMenuCell.m */; };
+		430F4D571E001C3300DC2440 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D561E001C3300DC2440 /* UIViewController+LGSideMenuController.m */; };
+		430F4D591E002D6000DC2440 /* LaunchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 430F4D581E002D6000DC2440 /* LaunchLogo.png */; };
+		430F4D5F1E0030F600DC2440 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D5C1E0030F600DC2440 /* DRPLoadingSpinner.m */; };
+		430F4D601E0030F600DC2440 /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D5E1E0030F600DC2440 /* DRPRefreshControl.m */; };
+		430F4D621E004AD700DC2440 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 430F4D611E004AD700DC2440 /* libxml2.tbd */; };
+		430F4D741E004C1900DC2440 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D6F1E004C1900DC2440 /* TFHpple.m */; };
+		430F4D751E004C1900DC2440 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D711E004C1900DC2440 /* TFHppleElement.m */; };
+		430F4D761E004C1900DC2440 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4D731E004C1900DC2440 /* XPathQuery.m */; };
+		67401BD49F9A2533652F8787 /* Pods_orodnaa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EED4DFDB4A4ABEBF7A59FC5 /* Pods_orodnaa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EED4DFDB4A4ABEBF7A59FC5 /* Pods_orodnaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orodnaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430F4D2C1E000BBF00DC2440 /* orodnaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orodnaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		430F4D301E000BBF00DC2440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		430F4D321E000BBF00DC2440 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		430F4D331E000BBF00DC2440 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		430F4D351E000BBF00DC2440 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		430F4D361E000BBF00DC2440 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		430F4D391E000BBF00DC2440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		430F4D3B1E000BBF00DC2440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		430F4D3E1E000BBF00DC2440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430F4D401E000BBF00DC2440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430F4D471E000C3600DC2440 /* ODHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODHelper.h; sourceTree = "<group>"; };
+		430F4D481E000C3600DC2440 /* ODHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODHelper.m; sourceTree = "<group>"; };
+		430F4D4A1E00108100DC2440 /* ODRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODRightViewController.h; sourceTree = "<group>"; };
+		430F4D4B1E00108100DC2440 /* ODRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRightViewController.m; sourceTree = "<group>"; };
+		430F4D4D1E0010A700DC2440 /* ODMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODMainViewController.h; sourceTree = "<group>"; };
+		430F4D4E1E0010A700DC2440 /* ODMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODMainViewController.m; sourceTree = "<group>"; };
+		430F4D501E0012C500DC2440 /* Fonts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Fonts.bundle; sourceTree = "<group>"; };
+		430F4D521E0014A300DC2440 /* ODRightMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODRightMenuCell.h; sourceTree = "<group>"; };
+		430F4D531E0014A300DC2440 /* ODRightMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRightMenuCell.m; sourceTree = "<group>"; };
+		430F4D551E001C3300DC2440 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		430F4D561E001C3300DC2440 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		430F4D581E002D6000DC2440 /* LaunchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchLogo.png; sourceTree = "<group>"; };
+		430F4D5B1E0030F600DC2440 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		430F4D5C1E0030F600DC2440 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		430F4D5D1E0030F600DC2440 /* DRPRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPRefreshControl.h; sourceTree = "<group>"; };
+		430F4D5E1E0030F600DC2440 /* DRPRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPRefreshControl.m; sourceTree = "<group>"; };
+		430F4D611E004AD700DC2440 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		430F4D6E1E004C1900DC2440 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		430F4D6F1E004C1900DC2440 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		430F4D701E004C1900DC2440 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		430F4D711E004C1900DC2440 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		430F4D721E004C1900DC2440 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		430F4D731E004C1900DC2440 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		76E703FDD7084D257DFE6507 /* Pods-orodnaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orodnaa.release.xcconfig"; path = "Pods/Target Support Files/Pods-orodnaa/Pods-orodnaa.release.xcconfig"; sourceTree = "<group>"; };
+		D3F0A0DD0EC35A2EA9E4B9FF /* Pods-orodnaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orodnaa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-orodnaa/Pods-orodnaa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430F4D291E000BBF00DC2440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430F4D621E004AD700DC2440 /* libxml2.tbd in Frameworks */,
+				67401BD49F9A2533652F8787 /* Pods_orodnaa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33108723689BB918343A2FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D611E004AD700DC2440 /* libxml2.tbd */,
+				3EED4DFDB4A4ABEBF7A59FC5 /* Pods_orodnaa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		430F4D231E000BBF00DC2440 = {
+			isa = PBXGroup;
+			children = (
+				430F4D2E1E000BBF00DC2440 /* orodnaa */,
+				430F4D2D1E000BBF00DC2440 /* Products */,
+				861903288CE22CC0728CAE7B /* Pods */,
+				33108723689BB918343A2FCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		430F4D2D1E000BBF00DC2440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D2C1E000BBF00DC2440 /* orodnaa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430F4D2E1E000BBF00DC2440 /* orodnaa */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D461E000C0200DC2440 /* Helper */,
+				430F4D321E000BBF00DC2440 /* AppDelegate.h */,
+				430F4D331E000BBF00DC2440 /* AppDelegate.m */,
+				430F4D351E000BBF00DC2440 /* ViewController.h */,
+				430F4D361E000BBF00DC2440 /* ViewController.m */,
+				430F4D381E000BBF00DC2440 /* Main.storyboard */,
+				430F4D4A1E00108100DC2440 /* ODRightViewController.h */,
+				430F4D4B1E00108100DC2440 /* ODRightViewController.m */,
+				430F4D4D1E0010A700DC2440 /* ODMainViewController.h */,
+				430F4D4E1E0010A700DC2440 /* ODMainViewController.m */,
+				430F4D3B1E000BBF00DC2440 /* Assets.xcassets */,
+				430F4D3D1E000BBF00DC2440 /* LaunchScreen.storyboard */,
+				430F4D401E000BBF00DC2440 /* Info.plist */,
+				430F4D2F1E000BBF00DC2440 /* Supporting Files */,
+			);
+			path = orodnaa;
+			sourceTree = "<group>";
+		};
+		430F4D2F1E000BBF00DC2440 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D581E002D6000DC2440 /* LaunchLogo.png */,
+				430F4D301E000BBF00DC2440 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		430F4D461E000C0200DC2440 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D6D1E004C1900DC2440 /* Hpple */,
+				430F4D5A1E0030F600DC2440 /* DRPLoadingSpinner */,
+				430F4D551E001C3300DC2440 /* UIViewController+LGSideMenuController.h */,
+				430F4D561E001C3300DC2440 /* UIViewController+LGSideMenuController.m */,
+				430F4D501E0012C500DC2440 /* Fonts.bundle */,
+				430F4D471E000C3600DC2440 /* ODHelper.h */,
+				430F4D481E000C3600DC2440 /* ODHelper.m */,
+				430F4D521E0014A300DC2440 /* ODRightMenuCell.h */,
+				430F4D531E0014A300DC2440 /* ODRightMenuCell.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		430F4D5A1E0030F600DC2440 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D5B1E0030F600DC2440 /* DRPLoadingSpinner.h */,
+				430F4D5C1E0030F600DC2440 /* DRPLoadingSpinner.m */,
+				430F4D5D1E0030F600DC2440 /* DRPRefreshControl.h */,
+				430F4D5E1E0030F600DC2440 /* DRPRefreshControl.m */,
+			);
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		430F4D6D1E004C1900DC2440 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				430F4D6E1E004C1900DC2440 /* TFHpple.h */,
+				430F4D6F1E004C1900DC2440 /* TFHpple.m */,
+				430F4D701E004C1900DC2440 /* TFHppleElement.h */,
+				430F4D711E004C1900DC2440 /* TFHppleElement.m */,
+				430F4D721E004C1900DC2440 /* XPathQuery.h */,
+				430F4D731E004C1900DC2440 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		861903288CE22CC0728CAE7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3F0A0DD0EC35A2EA9E4B9FF /* Pods-orodnaa.debug.xcconfig */,
+				76E703FDD7084D257DFE6507 /* Pods-orodnaa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		430F4D2B1E000BBF00DC2440 /* orodnaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430F4D431E000BBF00DC2440 /* Build configuration list for PBXNativeTarget "orodnaa" */;
+			buildPhases = (
+				89691D15110E185338DE5045 /* [CP] Check Pods Manifest.lock */,
+				430F4D281E000BBF00DC2440 /* Sources */,
+				430F4D291E000BBF00DC2440 /* Frameworks */,
+				430F4D2A1E000BBF00DC2440 /* Resources */,
+				3002F5FFAA78FC4EBE418067 /* [CP] Embed Pods Frameworks */,
+				C0B89BC2D4432099CF6CBE25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orodnaa;
+			productName = orodnaa;
+			productReference = 430F4D2C1E000BBF00DC2440 /* orodnaa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430F4D241E000BBF00DC2440 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = imokhles;
+				TargetAttributes = {
+					430F4D2B1E000BBF00DC2440 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KH5MPTCV98;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 430F4D271E000BBF00DC2440 /* Build configuration list for PBXProject "orodnaa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 430F4D231E000BBF00DC2440;
+			productRefGroup = 430F4D2D1E000BBF00DC2440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				430F4D2B1E000BBF00DC2440 /* orodnaa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430F4D2A1E000BBF00DC2440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430F4D3F1E000BBF00DC2440 /* LaunchScreen.storyboard in Resources */,
+				430F4D3C1E000BBF00DC2440 /* Assets.xcassets in Resources */,
+				430F4D511E0012C500DC2440 /* Fonts.bundle in Resources */,
+				430F4D591E002D6000DC2440 /* LaunchLogo.png in Resources */,
+				430F4D3A1E000BBF00DC2440 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3002F5FFAA78FC4EBE418067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orodnaa/Pods-orodnaa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89691D15110E185338DE5045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B89BC2D4432099CF6CBE25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orodnaa/Pods-orodnaa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430F4D281E000BBF00DC2440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430F4D751E004C1900DC2440 /* TFHppleElement.m in Sources */,
+				430F4D491E000C3600DC2440 /* ODHelper.m in Sources */,
+				430F4D371E000BBF00DC2440 /* ViewController.m in Sources */,
+				430F4D4C1E00108100DC2440 /* ODRightViewController.m in Sources */,
+				430F4D571E001C3300DC2440 /* UIViewController+LGSideMenuController.m in Sources */,
+				430F4D341E000BBF00DC2440 /* AppDelegate.m in Sources */,
+				430F4D541E0014A300DC2440 /* ODRightMenuCell.m in Sources */,
+				430F4D5F1E0030F600DC2440 /* DRPLoadingSpinner.m in Sources */,
+				430F4D761E004C1900DC2440 /* XPathQuery.m in Sources */,
+				430F4D4F1E0010A700DC2440 /* ODMainViewController.m in Sources */,
+				430F4D601E0030F600DC2440 /* DRPRefreshControl.m in Sources */,
+				430F4D741E004C1900DC2440 /* TFHpple.m in Sources */,
+				430F4D311E000BBF00DC2440 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		430F4D381E000BBF00DC2440 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430F4D391E000BBF00DC2440 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		430F4D3D1E000BBF00DC2440 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430F4D3E1E000BBF00DC2440 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		430F4D411E000BBF00DC2440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		430F4D421E000BBF00DC2440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		430F4D441E000BBF00DC2440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F0A0DD0EC35A2EA9E4B9FF /* Pods-orodnaa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH5MPTCV98;
+				INFOPLIST_FILE = orodnaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.orodnaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		430F4D451E000BBF00DC2440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E703FDD7084D257DFE6507 /* Pods-orodnaa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH5MPTCV98;
+				INFOPLIST_FILE = orodnaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.orodnaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		430F4D271E000BBF00DC2440 /* Build configuration list for PBXProject "orodnaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430F4D411E000BBF00DC2440 /* Debug */,
+				430F4D421E000BBF00DC2440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430F4D431E000BBF00DC2440 /* Build configuration list for PBXNativeTarget "orodnaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430F4D441E000BBF00DC2440 /* Debug */,
+				430F4D451E000BBF00DC2440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 430F4D241E000BBF00DC2440 /* Project object */;
+}
